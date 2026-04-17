@@ -3,6 +3,6 @@
     { "src": "api/talk.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" }
+    { "src": "/api/talk", "dest": "/api/talk.js" }
   ]
 }
